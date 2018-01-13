@@ -9,6 +9,7 @@ all:
 	g++ $(FLAGS) -o bin/anagram         anagram.cpp
 	g++ $(FLAGS) -o bin/binadd          binadd.cpp
 	g++ $(FLAGS) -o bin/dupremove       dupremove.cpp
+	g++ $(FLAGS) -o bin/linkadd         linkadd.cpp
 clean:
 	rm -rf bin
 	rm -rf *.out
