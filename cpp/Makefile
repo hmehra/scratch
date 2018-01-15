@@ -11,6 +11,7 @@ all:
 	g++ $(FLAGS) -o bin/dupremove                 dupremove.cpp
 	g++ $(FLAGS) -o bin/linkadd                   linkadd.cpp
 	g++ $(FLAGS) -o bin/longsubpalindrome         longsubpalindrome.cpp
+	g++ $(FLAGS) -o bin/numpalindrome             numpalindrome.cpp
 clean:
 	rm -rf bin
 	rm -rf *.out
